@@ -1,0 +1,109 @@
+:root{
+    --primary:#1B4332;
+    --primary:#206A4F;
+    --secondary:#D4A017;
+    --secondary-dark:#B8860B;
+    --white:#ffffff;
+    --light:#f8f9fa;
+    --gray:#6c757d;
+    --dark:#111111;
+    --text:#444;
+    --boarder:#ececec;
+    --shadow:0 15px 40px rgba(0,0,0,.12);
+    --shadow-lg:0 25px 60px rgba (0,0,0,.18);
+    --radius:16px;
+    --transition:.35s ease;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+    background: var(--light);
+    overflow-x: hidden;
+}
+header{
+    position:fixed;
+    width:100%;
+    top: 40px;
+    left: 0;
+    z-index: 989;
+    transition: 4s;
+}
+header.sticky{
+    top: 0;
+    background: rgba(16,18,18,.96);
+    backdrop-filter: blur(18px);
+    box-shadow: var(--shadow);
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+
+}
+nav a{
+    color:rgba(126, 163, 219, 0.61);
+    font-weight: 500;
+    position: relative;
+    transition: 3s;
+
+}
+nav a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 0;
+    height: 3px;
+    background: var(--secondary);
+    transition: .35s;
+}
+.header-btn {
+    background: var(--secondary);
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: aqua;
+}
+.hero {
+    height: 100vh;
+    background: url(https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3030-small-desktop-3.png?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=1202&qlt=100,1&resMode=sharp2&size=1202,804&chrss=full)center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.hero .container{
+    position: relative;
+    z-index: 5;
+
+}
+.header-content {
+    max-width: 650px;
+}
+.hero h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 72px;
+    line-height: 1.1;
+    color: black;
+    margin-bottom: 25px;
+}
+.hero h1 span {
+    color: var(--secondary)
+}
+.hero p{
+    font-size: 19px;
+    line-height: 1.8;
+    color: black;
+    margin-bottom: 35px;
+    max-width: 560px;
+}
