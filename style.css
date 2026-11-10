@@ -28,6 +28,7 @@ body{
     background: var(--light);
     overflow-x: hidden;
 }
+
 header{
     position:fixed;
     width:100%;
@@ -140,10 +141,11 @@ nav a::after{
     gap: 10px;
 }
 .identity portrait-frame{
-        top: url(https://image.lexica.art/full_jpg/3584a6c0-e4e4-498f-a7f6-f3509a5d7bdd);
+       /* top: url(https://image.lexica.art/full_jpg/3584a6c0-e4e4-498f-a7f6-f3509a5d7bdd);*/
         display: flex;
         max-width: 200px;
         top: 20px;
         left: 20px;
         z-index: 10;
+        
     }

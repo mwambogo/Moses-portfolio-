@@ -1,0 +1,118 @@
+body{
+    background-color:rgb(79, 116, 79);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   /* background-image:url(https://th.bing.com/th/id/OIP.zWzXC5BIWmRrBm0nQu8NTwHaEo?w=286&h=180&c=7&r=0&o=7&pid=1.7&rm=3) ;*/
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+
+nav a{
+    color: white;
+    margin: 6px;
+    padding-bottom: 2px;
+    
+}
+.logo{
+position: relative;
+display: flex;
+size: 8px;
+justify-items: left;
+align-items: center;
+}
+.logo .img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    justify-self: left;
+  
+}
+footer{
+    background-color: beige;
+    align-items: center;
+    border-radius: 6px;
+    justify-items: center;
+    position: relative;
+}
+.footer-top{
+    display: inline;
+    gap: 2px;
+    
+
+}
+header{
+    background-color: rgb(35, 122, 68);
+    padding-top: 20px;
+    padding-bottom: px;
+    justify-items: center;
+
+}
+.nav{
+    background-color: rgba(45, 102, 50, 0.89);*/
+    justify-self: right;
+    padding: 10px;
+    display: flex;
+    border-radius: 2px;
+    justify-items: right;
+   
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+    gap: 30px;
+
+
+}
+.card{
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0.89);
+    transition: 4s;
+    box-sizing: border-box;
+    width: fit-content;
+}
+.card.img {
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    width: auto;
+}
+.card.h2{
+    padding: 15px;
+    color: rgb(44, 97, 71);   
+
+}
+.card.p{
+    padding: 0, 20px, 25px;
+}
+.join{
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.join:hover{
+    background-color: rgb(6, 10, 255);
+    color: black;
+    font-weight: 400;
+    transition: 0.2s;
+    box-shadow: inset;
+
+}
+.read{
+    background-color: rgb(172, 215, 226);
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: inset;
+}
+.read:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 0.2s;
+}
