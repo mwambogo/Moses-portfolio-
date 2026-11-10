@@ -32,7 +32,7 @@ header{
     position:fixed;
     width:100%;
     top: 40px;
-    left: 0;
+    right: 0;
     z-index: 989;
     transition: 4s;
 }
@@ -48,6 +48,15 @@ header.sticky{
     align-items: center;
     justify-content: space-between;
     padding: 18px 0;
+    position: center;
+    background: rgba(134, 71, 22, 0.96);
+    background-color: rgba(26, 13, 3, 0.96);
+    margin-left: 10px;
+.cotacts {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+    
 
 }
 nav a{
@@ -55,6 +64,7 @@ nav a{
     font-weight: 500;
     position: relative;
     transition: 3s;
+    align-items: center;
 
 }
 nav a::after{
@@ -76,7 +86,7 @@ nav a::after{
 }
 .hero {
     height: 100vh;
-    background: url(https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/inspiron-3030-small-desktop-3.png?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=1202&qlt=100,1&resMode=sharp2&size=1202,804&chrss=full)center/cover;
+    background: url(https://cdn.pixabay.com/photo/2019/12/26/20/45/fores-4721209_1280.jpg)center;
     position: relative;
     display: flex;
     align-items: center;
@@ -107,3 +117,33 @@ nav a::after{
     margin-bottom: 35px;
     max-width: 560px;
 }
+.top-bar {
+    background:#d0d6d4;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+}
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.top-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.identity portrait-frame{
+        top: url(https://image.lexica.art/full_jpg/3584a6c0-e4e4-498f-a7f6-f3509a5d7bdd);
+        display: flex;
+        max-width: 200px;
+        top: 20px;
+        left: 20px;
+        z-index: 10;
+    }
